@@ -1,5 +1,5 @@
-## Overzscore
-### Descrição do Projeto
+# Overzscore
+## Descrição do Projeto
 O Overzscore é uma plataforma de SportsTech focada inicialmente na modalidade de basquete. Utilizando tecnologia de ponta, nosso objetivo é melhorar tanto a experiência quanto a prática desse esporte.
 
 #### Problemas e Oportunidades
@@ -10,6 +10,9 @@ O Overzscore é uma plataforma de SportsTech focada inicialmente na modalidade d
 3. Interação Social: O basquete é mais do que apenas um jogo; é também sobre a comunidade. Com recursos como perfis de usuário, chat integrado e área para comentários, o Overzscore promove a interação entre os jogadores, construindo uma comunidade sólida em torno do esporte.
 
 4. Experiência do Usuário Aprimorada: Nosso foco principal é proporcionar uma experiência fluida e agradável para os jogadores. Ao simplificar a busca por quadras, agendar partidas e promover a interação social, o Overzscore torna a prática do basquete mais acessível e envolvente para todos os apaixonados pelo esporte.
+
+#### Futuras Expansões
+Em breve, também planejamos expandir nossa plataforma para incluir a modalidade de futebol, com um foco particular na área de society. Estamos animados para explorar novas oportunidades de melhorar a experiência dos jogadores e promover a interação social nessa  modalidade esportiva.
 
 #### Como Contribuir
 Se você é um entusiasta do basquete ou um desenvolvedor de tecnologia interessado em contribuir para nossa plataforma, fique à vontade para explorar nosso código-fonte, enviar pull requests e compartilhar suas ideias conosco. Juntos, podemos tornar a experiência no basquete ainda melhor!
