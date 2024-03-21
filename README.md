@@ -26,5 +26,25 @@ Se você é um entusiasta do basquete ou um desenvolvedor de tecnologia interess
 5. **Commit e Push das Alterações**: Adicione e comite as alterações (`git add .` e `git commit -m "Descrição concisa das alterações"`), então envie as mudanças para o seu fork (`git push origin minha-alteracao`).
 6. **Envie um Pull Request**: No GitHub, vá até o seu fork e clique no botão "Pull Request" para comparar suas alterações com o repositório original e enviar sua contribuição.
 
-Contribuir para projetos open source é uma ótima maneira de aprender e colaborar com a comunidade. Certifique-se sempre de seguir as convenções de codificação e as diretrizes de contribuição do projeto em questão.
+### Configurando a API do Google Maps
+Para iniciar o projeto na sua máquina local, você precisará adicionar uma chave da API do Google Maps no arquivo `local.properties`. Siga os passos abaixo para obter a chave:
+
+1. Acesse o [Google Cloud Console](https://console.cloud.google.com/).
+2. Crie um novo projeto ou selecione um projeto existente.
+3. No painel de navegação à esquerda, clique em "Ativar APIs e serviços".
+4. Na biblioteca de APIs, pesquise por "Maps SDK for Android" e ative-o para o seu projeto.
+5. Após ativar a API, você precisará criar uma chave da API. Para isso, no painel de navegação à esquerda, clique em "Credenciais".
+6. Clique em "Criar credenciais" e selecione "Chave de API".
+7. Copie a chave gerada.
+
+Agora, adicione a chave da API no arquivo `local.properties`, da seguinte forma:
+
+```properties
+MAPS_API_KEY=SUA_CHAVE_DA_API_AQUI
+```
+*Caso o projeto ainda esteja apresentando erro para iniciar:* 
+1. Vá até o arquivo local.properties.
+2. Localize a linha que define o diretório do SDK do Android, geralmente parecida com sdk.dir=C\:\\Users\\thiag\\AppData\\Local\\Android\\Sdk3.
+3. Remova o 3 do final.
+Este procedimento deve corrigir qualquer problema relacionado à inicialização do projeto, deixando dessa maneira: ***sdk.dir=C\:\\Users\\thiag\\AppData\\Local\\Android\\Sdk***
 
